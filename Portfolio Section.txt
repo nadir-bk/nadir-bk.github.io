@@ -1,0 +1,332 @@
+	<!--
+	- #PORTFOLIO
+	-->
+
+	<header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Professional</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>University</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Personal</button>
+            </li>
+
+
+
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Professional</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>University</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Personal</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item="" data-category="personal"
+              data-year="June 2025 - June 2025" 
+              data-links='[
+                {"text": "🦍 Play in Quest for FREE", "url": "https://www.meta.com/experiences/gorilla-vs-100-men/24276974678594511/"},
+                {"text": "📊 Game Stats", "url": "https://www.linkedin.com/posts/amir99_22408-players-37-countries-all-in-activity-7359672118638227459-dith"}
+              ]' 
+              data-videos="Xy1YxbyDENY"
+              data-summary="44k+ players from 40+ Countries in just 4 weeks! Built this VR Game in 2 weeks during XR Bootcamp with a team of 5 using Unity and XR Interaction Toolkit 3.1">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/gorilla_anim.gif" alt="Gorillavs100Men" loading="lazy" data-project-img="">
+                </figure>
+
+                <h3 class="project-title">Gorilla vs 100 Men - VR Game</h3>
+
+                <p class="project-category">Personal</p>
+
+              </a>
+            </li>
+
+            
+
+            <li class="project-item  active" data-filter-item="" data-category="university"
+              data-year="June 2024 - Present" data-links='[
+                {"text": "💻 LinkedIn Post", "url": "https://www.linkedin.com/posts/amir99_jarvis-xr-vr-activity-7337655279519416321-qtY1"}
+              ]' data-videos="LWcDMhXzZ0Q,702WmhCnNsw"
+              data-summary="MindPool is an innovative Mixed Reality mind mapping application that transforms brainstorming sessions. Built with XR Interaction Toolkit 3.0, it features custom input controllers supporting both hand tracking and traditional controllers. Users can create interactive notes, open web browsers in 3D space, and connect ideas with visual nodes. The spatial computing approach enhances creativity and collaboration, making it perfect for design thinking sessions, project planning, and educational environments.">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/mindpool_anim.gif" alt="XRMindMapping" loading="lazy" data-project-img="">
+                </figure>
+
+                <h3 class="project-title">MindPool - Mind Mapping XR App</h3>
+
+                <p class="project-category">University</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item="" data-category="professional"
+              data-year="June 2024 - May 2025" data-links='[
+                {"text": "📄 Research Paper (coming soon)", "url": "https://www.linkedin.com/in/amirmbk/recent-activity/all/"}
+              ]' data-video="o-m5KEgEb18, XE-F9KPwBIg"
+              data-summary="This cutting-edge VR simulation allows users to pilot an eVTOL aircraft while we collect real-time physiological data using advanced sensors including Biopac Ring (EDA, ECG, PPG, skin temperature) and Emotiv EEG headset. The data is visualized within the VR environment to help researchers understand motion sickness patterns and pilot performance metrics. Built using Unity 3D with XR Interaction Toolkit, this DoD-funded research project represents the future of aviation training and human factors analysis.">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/vrevtol_anim.gif" alt="VReVTOL" loading="lazy" data-project-img="">
+                </figure>
+
+                <h3 class="project-title">VR eVTOL Flying Simulation (funded by DoD)</h3>
+
+                <p class="project-category">Professional</p>
+
+              </a>
+            </li>
+
+
+
+
+
+            <li class="project-item  active" data-filter-item="" data-category="personal" data-year="Oct 2024 - Present"
+              data-links='[
+                {"text": "🎮 Try in VR for FREE!", "url": "https://www.meta.com/experiences/anniversaryquest/8862346790558393/"}
+              ]' data-videos="07rKWHxRN2g"
+              data-summary="Allows users to immerse themselves in a forest environment and walk down a trail with floating videos on each side that has vidoes of the user’s loved ones wishing them well">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/bdayquest_anim.gif" alt="XRBirthday" loading="lazy" data-project-img="">
+                </figure>
+
+                <h3 class="project-title">AnniversaryQuest - VR/AR Experience App</h3>
+
+                <p class="project-category">Personal</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item="" data-category="professional"
+              data-year="June 2024 - May 2025" data-links='[
+                 ]' data-videos="2XQ_gIig-Yo, INfIFmrmCJI, 3YJtp8Crjik, 1f6nTCeg6wA" data-summary="Conducted 4 immersive XR workshops (2 hours each), equipping 54 students with Unity skills for VR game & app development
+              Here is a recording of one of the workshops
+              ">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/instructor.gif" alt="XRWorkshop" loading="lazy" data-project-img="">
+                </figure>
+
+                <h3 class="project-title">XR/VR/AR Lab Instructor + Workshops</h3>
+
+                <p class="project-category">Professional</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item="" data-category="university"
+              data-year="Apr 2024 - May 2024" data-links='[
+              {"text": "🎮 Play for FREE!", "url": "https://amirmohideen.itch.io/gravityshiftpuzzler"}
+                 ]' data-videos="8yI6fGXxj3U" data-summary="Collaborated with a team of 4 on GitHub to develop a 3D gravity-shifting game in Unity">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/gravity_anim2.gif" alt="3DGame" loading="lazy" data-project-img="">
+                </figure>
+
+                <h3 class="project-title">3D Gravity-Shifting Puzzle Game</h3>
+
+                <p class="project-category">University</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item="" data-category="personal"
+              data-year="June 2024 - Present" data-links='[
+              
+                 ]' data-videos="3qAJrQKENy8"
+              data-summary="Created a Python automation script leveraging YouTube Data API v3 to format, schedule, and publish 100 short videos daily">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-pythonautomation.png" alt="PythonAutomation" loading="lazy"
+                    data-project-img="">
+                </figure>
+
+                <h3 class="project-title">Python YouTube Content Delivery Automation Script</h3>
+
+                <p class="project-category">Personal</p>
+
+              </a>
+            </li>
+
+
+            <li class="project-item  active" data-filter-item="" data-category="personal"
+              data-year="June 2020 - Nov 2020" data-links='[
+              {"text": "🛒 Website", "url": "https://the-dom-watches.myshopify.com/"}
+                 ]' data-videos=""
+              data-summary="Built an automotive watch brand in Shopify using HTML, CSS, JavaScript and collected $20K in revenue with 60% profit via organic digital marketing ">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-velocitywatches.png" alt="ecommerce" loading="lazy"
+                    data-project-img="">
+                </figure>
+
+                <h3 class="project-title">Velocity Watches (E-Commerce)</h3>
+
+                <p class="project-category">Personal</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item="" data-category="personal"
+              data-year="June 2024 - Present" data-links='[
+              {"text": "▶️ YouTube Channel", "url": "https://www.youtube.com/@10XVAR"}
+                 ]' data-videos=""
+              data-summary="Sharing my knowledge about XR, VR, AR & AI so that you can 10x yours!">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project_10XVAR.jpg" alt="ecommerce" loading="lazy" data-project-img="">
+                </figure>
+
+                <h3 class="project-title">10XVAR - XR/VR/AR/AI Tutorials (YouTube Channel)</h3>
+
+                <p class="project-category">Personal</p>
+
+              </a>
+            </li>
+
+
+          </ul>
+
+
+
+          <div class="modal-container" data-modal-container="">
+
+            <div class="overlay" data-overlay=""></div>
+
+            <section class="testimonials-modal">
+
+              <button class="modal-close-btn" data-modal-close-btn="">
+                <ion-icon name="close-outline"></ion-icon>
+              </button>
+
+              <div class="modal-img-wrapper">
+                <figure class="modal-avatar-box">
+                  <img src="./assets/images/avatar-1.png" alt="Amir" width="80" data-modal-img="">
+                </figure>
+              </div>
+
+              <div class="modal-content">
+
+                <h4 class="h3 modal-title" data-modal-title="">Project Title</h4>
+
+                <time data-modal-year="">June 2024 - Present</time>
+
+                <!-- Multiple Links Container - First -->
+                <div class="modal-links" data-modal-links="">
+                  <!-- Links will be dynamically inserted here -->
+                </div>
+
+                <!-- YouTube Videos Container - Second (supports multiple videos) -->
+                <div class="modal-videos" data-modal-videos="">
+                  <!-- YouTube iframes will be dynamically inserted here -->
+                </div>
+
+                <!-- Description - Third -->
+                <div class="modal-description" data-modal-text="">
+                  <p>
+                    Project description will appear here
+                  </p>
+                </div>
+
+              </div>
+
+            </section>
+
+          </div>
+
+        </section>
